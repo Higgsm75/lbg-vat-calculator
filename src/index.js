@@ -17,7 +17,7 @@ root.render(
 reportWebVitals();
 
 function Dummy(input){
-  var sql = "SELECT * FROM Customers WHERE name = '" + input "';"
+  var sql = "SELECT * FROM Customers WHERE name = '" + input + "';"
 }
 
 //
